@@ -1,3 +1,5 @@
+<!-- [![Jekyll Themes Badge](https://img.shields.io/badge/featured%20on-JT-red.svg)](https://jekyll-themes.com/[bjkawecki]/[Jekyll-Theme-Bluegreen]) -->
+
 # Jekyll Theme Blue/Green 
 
 ## Summary
@@ -6,13 +8,11 @@ Starting from Jekyll's minima theme, I created a simple design according to my t
 
 ## Features
 
-- Tailwind v3
-- Simple layout
-- Light/dark theme toggle
-- Blog page with pagination
-- Projects page with pagination
-- Other pages: about, 404
-- Several layouts
+- **Blog**: list view, detail view, pagination
+- **Projects**: list view, detail view, pagination
+- **Tailwind**: Version 3, light/dark toggle
+- **Pages**: about, 404
+- **Layouts**
 
 ## Install
 
