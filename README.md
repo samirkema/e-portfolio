@@ -26,7 +26,7 @@ Starting from Jekyll's minima theme, I created a simple design according to my t
 
 - Paste your preffered woff2 font file in `/assets/fonts/` and change the reference in `/_includes/head.html`
 - Edit your Tailwind color palettes in `tailwind.config.js`
-- Personalize the values for name, email, description, etc. in `_config.yml`
+- Edit the values for `name`, `email`, `description`, `baseurl` and other in `_config.yml`
 
 ## Preview
 
