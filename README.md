@@ -34,3 +34,5 @@ Live-Preview: [bjoernkawecki.de](https://bjoernkawecki.de/)
 
 ![preview-blog-blue](/assets/preview/blue.png) 
 ![preview-blog-green](/assets/preview/green.png) 
+
+Profile image source: [dreamstime.com](https://www.dreamstime.com/adorable-minty-green-cat-cartoon-design-perfect-playful-illustrations-image354438289)
