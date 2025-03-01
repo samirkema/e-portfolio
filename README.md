@@ -30,7 +30,7 @@ Starting from Jekyll's minima theme, I created a simple design according to my t
 
 ## Preview
 
-Live-Preview: [bjoernkawecki.de](https://bjoernkawecki.de/)
+Live-Preview: [bjkawecki.github.io/jekyll-theme-bluegreen](https://bjkawecki.github.io/jekyll-theme-bluegreen/)
 
 ![preview-blog-blue](/assets/preview/blue.png) 
 ![preview-blog-green](/assets/preview/green.png) 
