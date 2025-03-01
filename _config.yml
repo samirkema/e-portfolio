@@ -18,20 +18,21 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Björn Kawecki | Persönliche Webseite
-email: bkawecki@mailbox.org
-description:
-url: "https://bjoernkawecki.de" # the base hostname & protocol for your site, e.g. http://example.com
+theme_name: bluegreen
+author: Björn Kawecki
+
+title: Tilly Bleen | Blog & Projects
+subtitle: Full Stack Cat
+name: Tilly Bleen
+
+email: tbleen@catmail.org
+description: Blog, Projects, About me
+url: "https://example.com" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username:
-github_username: bjkawecki
+github_username: tbleen
+linkedin_username: tbleen
 
-# Build settings
-# theme: minima
-
-theme_name: bluegreen
-description: Simple theme with tailwind for a personal website with a blog and and a page for your projects.
-author: Björn Kawecki
 plugins:
   - jekyll-feed
   - jekyll-postcss
