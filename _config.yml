@@ -28,8 +28,8 @@ name: Tilly Bleen
 
 email: tbleen@catmail.org
 description: Blog, Projects, About me
-url: "https://bjkawecki.github.io"  # Kein bjoernkawecki.de hier
-baseurl: "/jekyll-theme-bluegreen"   # Nur Projektname, ohne .github.io
+url: "https://bjkawecki.github.io" 
+baseurl: "/jekyll-theme-bluegreen"  
 twitter_username:
 github_username: tbleen
 linkedin_username: tbleen
