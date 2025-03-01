@@ -2,7 +2,7 @@
 layout: blog
 ---
 
-<h1>Weblog</h1>
+<h1 class="px-4">Weblog</h1>
 {% assign psize = site.posts | size %}
 {% if psize == 0 %}
 Kein Einträge vorhanden.
@@ -11,10 +11,10 @@ Kein Einträge vorhanden.
     {% for post in paginator.posts %}
     <a href="{{ post.url }}">
         <div class="dark:hover:bg-zinc-800 hover:bg-gray-100 py-4 px-4 rounded">
-        <h6>{{ post.date | date: "%d.%m.%Y" }} | {{ post.category | capitalize }}</h6>
-        <h2>{{ post.title }}</h2>
-    </div>
-</a>
+            <h6>{{ post.date | date: "%d.%m.%Y" }} | {{ post.category | capitalize }}</h6>
+            <h2>{{ post.title }}</h2>
+        </div>
+    </a>
     {% endfor %}
 </div>
 {% endif %}
