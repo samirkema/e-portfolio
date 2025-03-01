@@ -10,7 +10,7 @@ Starting from Jekyll's minima theme, I created a simple design according to my t
 
 - **Blog**: list view, detail view, pagination
 - **Projects**: list view, detail view, pagination
-- **Tailwind**: Version 3, light/dark toggle
+- **Style**: Tailwind v3, light/dark toggle
 - **Pages**: about, 404
 - **Layouts**
 
