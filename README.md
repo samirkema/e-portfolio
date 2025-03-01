@@ -20,11 +20,11 @@ Starting from Jekyll's minima theme, I created a simple design according to my t
 2. Use your preferred node package manager to install from `package.json`
 3. Install jekyll and bundler: `gem install jekyll bundler`
 4. Install the gems: `bundle install`
-5. Use the scripts in `package.json` to build, serve or watch your development application
+5. Use the scripts in `package.json` to build or serve your development application
 
 ## Customize
 
-- Paste your preffered woff2 font file in `/assets/fonts/` and change the refernce in `/_includes/head.html`
+- Paste your preffered woff2 font file in `/assets/fonts/` and change the reference in `/_includes/head.html`
 - Edit your Tailwind color palettes in `tailwind.config.js`
 - Personalize the values for name, email, description, etc. in `_config.yml`
 
@@ -35,4 +35,4 @@ Live-Preview: [bjoernkawecki.de](https://bjoernkawecki.de/)
 ![preview-blog-blue](/assets/preview/blue.png) 
 ![preview-blog-green](/assets/preview/green.png) 
 
-Profile image source: [dreamstime.com](https://www.dreamstime.com/adorable-minty-green-cat-cartoon-design-perfect-playful-illustrations-image354438289)
+Source of cat profile image: [dreamstime.com](https://www.dreamstime.com/adorable-minty-green-cat-cartoon-design-perfect-playful-illustrations-image354438289)
