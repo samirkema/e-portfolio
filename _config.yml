@@ -29,7 +29,7 @@ name: Tilly Bleen
 email: tbleen@catmail.org
 description: Blog, Projects, About me
 url: "https://bjkawecki.github.io" 
-baseurl: "/jekyll-theme-bluegreen.github.io"  
+baseurl: "/jekyll-theme-bluegreen"  
 twitter_username:
 github_username: tbleen
 linkedin_username: tbleen
