@@ -20,7 +20,7 @@ Starting from Jekyll's minima theme, I created a simple design according to my t
 2. Use your preferred node package manager to install from `package.json`
 3. Install jekyll and bundler: `gem install jekyll bundler`
 4. Install the gems: `bundle install`
-5. Use the scripts in `package.json` to build, start or watch your development application
+5. Use the scripts in `package.json` to build, serve or watch your development application
 
 ## Customize
 

@@ -18,7 +18,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-theme: bluegreen
+theme_name: bluegreen
+# theme: jekyll-theme-bluegreen-0.1.1
 author: Björn Kawecki
 
 title: Tilly Bleen | Blog & Projects
