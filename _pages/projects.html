@@ -10,7 +10,7 @@ permalink: "/projects/"
 <p>No entries yet</p>
 {% else %}
 {% for project in site.projects %}
-<a href="{{ project.url }}">
+<a href="{{ project.url | prepend:site.baseurl }}">
   <div class="dark:hover:bg-zinc-800 hover:bg-gray-200 py-4 px-4 rounded">
     <h6>Started: {{ project.started }} | Status: {{ project.status }}</h6>
     <h2>{{ project.projectname }}</h2>
