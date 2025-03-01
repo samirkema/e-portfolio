@@ -16,9 +16,11 @@ Starting from Jekyll's minima theme, I created a simple design according to my t
 
 ## Install
 
-1. Install `package.json` with your preferred node package manager
-2. Make sure that you installed ruby and bundler
-3. Use the scripts in `package.json` to build start and watch your development application
+1. Clone this repo: `git clone https://github.com/bjkawecki/Jekyll-Theme-Bluegreen`
+2. Use your preferred node package manager to install from `package.json`
+3. Install jekyll and bundler: `gem install jekyll bundler`
+4. Install the gems: `bundle install`
+5. Use the scripts in `package.json` to build, start or watch your development application
 
 ## Customize
 
