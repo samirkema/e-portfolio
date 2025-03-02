@@ -8,11 +8,11 @@ Starting from Jekyll's minima theme, I created a simple design according to my t
 
 ## Features
 
+- **Pages**: blog, projects, about, 404
 - **Blog**: list view, detail view, pagination
 - **Projects**: list view, detail view, pagination
-- **Style**: Tailwind v3, light/dark toggle
-- **Pages**: about, 404
-- **Layouts**
+- **Style**: Tailwind v3, light/dark toggle, responsive, layouts
+- **Deploy**: workflow for GitHub Pages
 
 ## Install
 
