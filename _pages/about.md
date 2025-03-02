@@ -7,10 +7,8 @@ permalink: "/about/"
 
 ## Programming skills
 
-- **Langues**: Python, JavaScript, Bash    
-- **Frontend**: HTML, CSS, Tailwind, HTMX   
-- **Backend**: Django, REST, SQL   
-- **DevOps**: Linux, Docker, AWS, GitHub   
+- **Languages**: C#, Pascal
+- **Frontend**: HTML, CSS    
 
 ## Degrees
 - Bachelor in Computer Science, University of Purrington, 2024

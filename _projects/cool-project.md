@@ -2,9 +2,9 @@
 layout: project
 title: Cool Project
 projectname: Cool Project
-description: Very cool description for a very cool project
+description: Very cool description for a very cool project. You can write a longer text, if you wish, to draw your visitors' interest.
 started: 2020
-status: development
+status: deployed
 uri: https://example.com
 uri_h: example.com
 category: project
