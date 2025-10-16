@@ -22,17 +22,17 @@ theme_name: bluegreen
 # theme: jekyll-theme-bluegreen-0.1.1
 author: Björn Kawecki
 
-title: Tilly Bleen | Blog & Projects
-subtitle: Full Stack Cat
-name: Tilly Bleen
+title: E-portfolio 
+subtitle: Élève-ingénieur en sciences du numérique
+name: Samir Tamboura
 
-email: tbleen@catmail.org
-description: Blog, Projects, About me
-url: "https://bjkawecki.github.io" 
-baseurl: "/jekyll-theme-bluegreen"  
+email: samir.tamboura@etu.inp-n7.fr
+description: J'espère que vous apprecierez découvrir monn parcours,mes projets et mes objectifs pour le futur dans ce site.
+url: "https://samirkema.github.io" 
+baseurl: "/e-portfolio"  
 twitter_username:
-github_username: tbleen
-linkedin_username: tbleen
+github_username: samirkema
+linkedin_username: Samir Tamboura
 
 plugins:
   - jekyll-feed
