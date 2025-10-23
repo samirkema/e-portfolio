@@ -1,33 +1,14 @@
 ---
 layout: project
-title: Cool Project
-projectname: Cool Project
-description: Very cool description for a very cool project. You can write a longer text, if you wish, to draw your visitors' interest.
-started: 2020
+title: Journée internationale
+projectname: Journée internationale
+description: Journée internationale à l'ENSEEIHT
+started: 2025
 status: deployed
 uri: https://example.com
 uri_h: example.com
-category: project
+category: Projet
 techstack: jekyll
 ---
 
-Online: [{{ page.uri_h }}]({{ page.uri }})
-
-Here goes a summary or some kind of motivation for your project. The rest of the sections is self-explanatory.
-
-### Features
-
-- First feature
-- Second feature
-- Third feature
-
-
-### Tech Stack
-
-- **Backend**: Jekyll
-- **Frontend**: Tailwind
-- **Deployment**: Github Pages
-
-### News
-
-- 01/2024: Development started
+Le 16 octobre 2025, j'ai participé à la journée internationale organisée au sein de l'ENSEEIHT, ce fut l'occasion de rencontrer des étudiants internationaux et des étudiants ayant réalisé une mobilité à l'internationale. Cela m'a permis de préciser mon projet de mobilité internationale pour l'année prochaine.

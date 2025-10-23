@@ -7,8 +7,14 @@ permalink: "/about/"
 
 ## Programming skills
 
-- **Languages**: C#, Pascal
-- **Frontend**: HTML, CSS    
+- **Languages**: Python, Ada, SQL
+- **Frontend**: HTML    
 
 ## Degrees
-- Bachelor in Computer Science, University of Purrington, 2024
+- Fac de maths , L1 L2, Université de la Rochelle , 2025
+- Diplome d'ingénieur, En cours, ENSEEIHT , 2028
+
+## Experience professionelle
+- Expérience dans la restauration en France et en Angleterre
+- Artiste-freelance
+- ...
