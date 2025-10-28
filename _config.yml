@@ -27,12 +27,12 @@ subtitle: Élève-ingénieur en sciences du numérique
 name: Samir Tamboura
 
 email: samir.tamboura@etu.inp-n7.fr
-description: J'espère que vous apprecierez découvrir monn parcours,mes projets et mes objectifs pour le futur dans ce site.
-url: "https://samirkema.github.io" 
+description: Bonjour, je suis Samir Tamboura, élève-ingénieur en sciences du numérique à l'ENSEEIHT. Ce site est mon e-portofolio. Jespère que vous apprecierez découvrir monn parcours,mes projets et mes objectifs pour le futur dans ce site.
+url: "https://samirkema.github.io"
 baseurl: "/e-portfolio"  
 twitter_username:
 github_username: samirkema
-linkedin_username: Samir Kemayou Tamboura
+linkedin_username: https://www.linkedin.com/in/samir-tamboura-0a064b203/
 
 plugins:
   - jekyll-feed
