@@ -118,6 +118,8 @@ permalink: "/about/"
       </div>
     </div>
   </div>
+  <img src="{{ '/assets/img/IMG_20191220_201930.jpg' | relative_url }}" alt="Scotland" style="width:100%;border-radius:12px;margin-top:1rem;object-fit:cover;max-height:280px;">
+  <p style="font-size:0.75rem;color:#9ca3af;margin-top:0.4rem;text-align:center;">Time spent in the UK — one of many experiences abroad.</p>
 </div>
 
 <div class="about-section">
@@ -140,11 +142,21 @@ permalink: "/about/"
 
 <div class="about-section">
   <h2>🥋 Interests</h2>
-  <div class="skills-grid">
+  <div class="skills-grid" style="margin-bottom:1rem;">
     <span class="skill-badge">Judo — Black Belt</span>
     <span class="skill-badge">Manga & Illustration</span>
     <span class="skill-badge">Blockchain & NFTs</span>
     <span class="skill-badge">AI / Machine Learning</span>
     <span class="skill-badge">Travel</span>
+  </div>
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:0.75rem;">
+    <div>
+      <img src="{{ '/assets/img/judo1.avif' | relative_url }}" alt="Judo" style="width:100%;border-radius:12px;object-fit:cover;max-height:200px;">
+      <p style="font-size:0.75rem;color:#9ca3af;margin-top:0.4rem;text-align:center;">Judo — Black Belt</p>
+    </div>
+    <div>
+      <img src="{{ '/assets/img/IMG_2306.jpeg' | relative_url }}" alt="Travel — Beijing" style="width:100%;border-radius:12px;object-fit:cover;max-height:200px;">
+      <p style="font-size:0.75rem;color:#9ca3af;margin-top:0.4rem;text-align:center;">Travel — Beijing, China</p>
+    </div>
   </div>
 </div>

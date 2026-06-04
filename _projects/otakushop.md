@@ -11,6 +11,9 @@ category: project
 techstack: Jekyll, Node.js, PostgreSQL, Supabase, Ethers.js, JWT
 ---
 
+![OtakuShop — manga art painting]({{ '/assets/img/IMG_1748.jpeg' | relative_url }})
+*One of the manga-inspired paintings sold through OtakuShop.*
+
 ## What is OtakuShop?
 
 OtakuShop is a full-stack platform for manga and anime art fans. It combines a digital art gallery, original manga reading, community games, and custom art commissions — with access levels controlled by subscription or NFT ownership.
