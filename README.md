@@ -1,38 +1,56 @@
-<!-- [![Jekyll Themes Badge](https://img.shields.io/badge/featured%20on-JT-red.svg)](https://jekyll-themes.com/[bjkawecki]/[Jekyll-Theme-Bluegreen]) -->
+# Samir Tamboura — E-Portfolio
 
-# Jekyll Theme Blue/Green 
+Personal portfolio and blog built with Jekyll and deployed on GitHub Pages.
 
-## Summary
+🌐 **Live site**: [samirkema.github.io/e-portfolio](https://samirkema.github.io/e-portfolio)
 
-Starting from Jekyll's minima theme, I created a simple design according to my taste with pages for a blog, about me and projects.
+---
 
-## Features
+## About
 
-- **Pages**: blog, projects, about, 404
-- **Blog**: list view, detail view, pagination
-- **Projects**: list view, detail view, pagination
-- **Style**: Tailwind v3, light/dark toggle, responsive, layouts
-- **Deploy**: workflow for GitHub Pages
+E-portfolio of **Samir Tamboura**, engineering student in Digital Sciences at ENSEEIHT (INP Toulouse). Contains a blog, project showcase, and about page.
 
-## Install
+## Structure
 
-1. Clone this repo: `git clone https://github.com/bjkawecki/Jekyll-Theme-Bluegreen`
-2. Use your preferred node package manager to install from `package.json`
-3. Install jekyll and bundler: `gem install jekyll bundler`
-4. Install the gems: `bundle install`
-5. Use the scripts in `package.json` to build or serve your development application
+```
+├── _posts/          # Blog posts (CV, courses, video, travel…)
+├── _projects/       # Project pages (HowMany, OtakuShop…)
+├── _pages/          # Static pages (About, Projects, 404)
+├── _layouts/        # Jekyll layouts
+├── _includes/       # Reusable components (sidebar, header, footer…)
+├── assets/
+│   ├── css/         # Tailwind compiled CSS + custom portfolio.css
+│   ├── img/         # Images
+│   ├── pdf/         # CV PDF
+│   └── js/          # Theme toggle script
+└── _config.yml      # Site configuration
+```
 
-## Customize
+## Pages
 
-- Paste your preffered woff2 font file in `/assets/fonts/` and change the reference in `/_includes/head.html`
-- Edit your Tailwind color palettes in `tailwind.config.js`
-- Edit the values for `name`, `email`, `description`, `baseurl` and other in `_config.yml`
+- **Blog** (`/`) — list of posts: CV, engineering courses, China trip, intro video
+- **Projects** (`/projects/`) — HowMany, OtakuShop & Swap
+- **About** (`/about/`) — skills, education timeline, experience, associations, hackathon, interests
 
-## Preview
+## Tech
 
-Live-Preview: [bjkawecki.github.io/jekyll-theme-bluegreen](https://bjkawecki.github.io/jekyll-theme-bluegreen/)
+- **Jekyll** — static site generator
+- **Tailwind CSS v3** — utility-first CSS framework
+- **Custom CSS** — `assets/css/portfolio.css` for design system (sidebar, hero, cards, timeline, badges)
+- **GitHub Actions** — automatic build & deploy to GitHub Pages
+- **Dark mode** — system preference detection + manual toggle
 
-![preview-blog-blue](/assets/preview/blue.png) 
-![preview-blog-green](/assets/preview/green.png) 
+## Local development
 
-Source of cat profile image: [dreamstime.com](https://www.dreamstime.com/adorable-minty-green-cat-cartoon-design-perfect-playful-illustrations-image354438289)
+```bash
+# Install dependencies
+bundle install
+npm install
+
+# Serve locally
+bundle exec jekyll serve
+```
+
+## Deploy
+
+Push to `main` → GitHub Actions builds the site → deploys to GitHub Pages automatically.
