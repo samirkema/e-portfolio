@@ -168,6 +168,7 @@ permalink: "/about/"
       </div>
     </div>
   </div>
+  <img src="{{ '/assets/img/hackathon_enac.jpg' | relative_url }}" alt="ENAC Hackathon" style="width:100%;border-radius:12px;margin-top:1rem;object-fit:cover;max-height:280px;">
 </div>
 
 <div class="about-section">
