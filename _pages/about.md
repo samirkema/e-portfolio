@@ -7,13 +7,7 @@ permalink: "/about/"
 <div class="about-section">
   <h2>👤 Who I am</h2>
   <p style="font-size:0.9rem;color:#4b5563;line-height:1.75;">
-    I am an engineering student at <strong>ENSEEIHT</strong> specializing in Digital Sciences, with a robust foundation in advanced mathematics and computer science. My academic focus lies in applying rigorous algorithmic methods and quantitative analysis to solve complex data problems. I am currently seeking a <strong>finance internship</strong> to leverage my computational background in tackling financial challenges, with a strong interest in quantitative strategies, data-driven investing, and market dynamics.
-  </p>
-  <p style="font-size:0.9rem;color:#4b5563;line-height:1.75;margin-top:0.75rem;">
-    Beyond my academic pursuits, I am driven by a strong entrepreneurial spirit and a passion for creative execution. In 2020, I launched <strong>Otaku Shop Studio</strong>, an entrepreneurial venture dedicated to designing and producing unique, innovative projects in the art space. I also bring leadership and operational skills from my tenure as Secretary of <strong>Génius N7</strong>, the entrepreneurship association at ENSEEIHT, where I actively cultivate the startup ecosystem and drive strategic initiatives.
-  </p>
-  <p style="font-size:0.9rem;color:#4b5563;line-height:1.75;margin-top:0.75rem;">
-    Looking ahead, I am deeply passionate about bridging technology, finance, and the life sciences. My ambition is to leverage my engineering background to translate cutting-edge digital sciences into real-world impact — particularly within the <strong>bio-informatics</strong> and <strong>HealthTech</strong> sectors. I thrive in dynamic, cross-functional environments where mathematical rigour meets strategic innovation and business development.
+    Engineering student at <strong>ENSEEIHT</strong> in Digital Sciences, with a strong foundation in mathematics and computer science. I'm currently seeking a <strong>finance internship</strong>, with interests in quantitative strategies and data-driven investing. Passionate about bridging technology, finance, and the life sciences — particularly <strong>bio-informatics</strong> and <strong>HealthTech</strong>.
   </p>
 </div>
 
