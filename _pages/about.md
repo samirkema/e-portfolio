@@ -118,7 +118,7 @@ permalink: "/about/"
       </div>
     </div>
   </div>
-  <img src="{{ '/assets/img/IMG_20191220_201930.jpg' | relative_url }}" alt="Scotland" style="width:100%;border-radius:12px;margin-top:1rem;object-fit:cover;max-height:280px;">
+  <img src="{{ '/assets/img/IMG_20191220_201930.jpg' | relative_url }}" alt="Scotland" style="display:block;margin:1rem auto 0;border-radius:12px;max-height:380px;width:auto;max-width:100%;">
   <p style="font-size:0.75rem;color:#9ca3af;margin-top:0.4rem;text-align:center;">Time spent in the UK — one of many experiences abroad.</p>
 </div>
 
@@ -180,7 +180,7 @@ permalink: "/about/"
     <span class="skill-badge">AI / Machine Learning</span>
     <span class="skill-badge">Travel</span>
   </div>
-  <div style="display:grid;grid-template-columns:1fr 1fr;gap:0.75rem;">
+  <div class="interests-grid" style="display:grid;grid-template-columns:1fr 1fr;gap:0.75rem;">
     <div>
       <img src="{{ '/assets/img/judo1.avif' | relative_url }}" alt="Judo" style="width:100%;border-radius:12px;object-fit:cover;max-height:200px;">
       <p style="font-size:0.75rem;color:#9ca3af;margin-top:0.4rem;text-align:center;">Judo — Black Belt</p>

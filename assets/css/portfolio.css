@@ -631,7 +631,46 @@ body {
   color: #9ca3af !important;
 }
 
-/* ── Responsive ── */
+/* ── Responsive — Mobile first ── */
+
+/* Stack post-item on very small screens */
+@media (max-width: 480px) {
+  .post-item {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.2rem;
+  }
+
+  .hero-title {
+    font-size: 1.6rem;
+  }
+
+  .hero-desc {
+    font-size: 0.88rem;
+  }
+
+  .hero-cta {
+    flex-direction: column;
+  }
+
+  .btn-primary,
+  .btn-outline {
+    text-align: center;
+    width: 100%;
+  }
+
+  /* 2-col interest grid → 1-col on tiny screens */
+  .interests-grid {
+    grid-template-columns: 1fr !important;
+  }
+
+  .sidebar-nav a {
+    font-size: 0.78rem;
+    padding: 0.25rem 0.6rem;
+  }
+}
+
+/* Tablet and up */
 @media (min-width: 768px) {
   .sidebar-avatar {
     width: 140px;
@@ -644,5 +683,34 @@ body {
 
   .hero-title {
     font-size: 2.2rem;
+  }
+}
+
+/* Make sure main layout has proper padding on mobile */
+@media (max-width: 767px) {
+  /* Content area full width on mobile */
+  .md\:w-1\/3 {
+    width: 100% !important;
+  }
+
+  /* Reduce top margin on mobile */
+  .mt-10 {
+    margin-top: 1.5rem !important;
+  }
+
+  /* Sidebar gets less bottom margin */
+  .sidebar {
+    margin-bottom: 1.5rem;
+  }
+
+  /* Project card hover effects off on touch */
+  .project-card:hover {
+    transform: none;
+  }
+
+  /* About section images full width */
+  .about-section img {
+    max-height: none !important;
+    width: 100% !important;
   }
 }
