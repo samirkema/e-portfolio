@@ -1,23 +1,32 @@
-<aside class="flex-col items-center mb-3 md:mb-0 h-fit md:top-10 md:sticky">
-    <div class="flex justify-center mb-5">
-        <img src="{{ site.baseurl }}/assets/img/your-profil-picture.webp"
-            class="object-cover h-48 rounded-full md:h-72">
-    </div>
-    <div class="flex flex-col items-center mb-2 space-y-0.5">
-        <div class="px-6 text-2xl font-medium md:px-0">
-            <a href="{{ site.baseurl }}/">{{ site.name }}</a>
-        </div>
-        <div>{{ site.subtitle}}</div>
-    </div>
-    <div class="flex justify-center mb-6 space-x-2">
-        <a href="{{ site.baseurl }}/"
-            class="{% if page.url == '/' or page.url contains '/page' %}font-bold {% endif %}text-blue2-600 dark:text-emerald-500 hover:underline">Weblog</a><span>&middot;</span>
-        <a href="{{ site.baseurl }}/projects/"
-            class="{% if page.url == '/projects/' %}font-bold {% endif %}text-blue2-600 hover:underline dark:text-emerald-500">Projects</a>
-        <span>&middot;</span>
-        <a href="{{ site.baseurl }}/about/"
-            class="{% if page.url == '/about/' %}font-bold {% endif %}text-blue2-600 hover:underline dark:text-emerald-500">About
-            me</a>
-    </div>
-    {% include footer.html %}
+<aside class="sidebar flex-col items-center mb-8 md:mb-0 h-fit md:top-10 md:sticky">
+  <img src="{{ site.baseurl }}/assets/img/your-profil-picture.webp"
+       class="sidebar-avatar" alt="{{ site.name }}">
+
+  <div class="sidebar-name">
+    <a href="{{ site.baseurl }}/" style="text-decoration:none;color:inherit;">{{ site.name }}</a>
+  </div>
+  <div class="sidebar-subtitle">{{ site.subtitle }}</div>
+
+  <nav class="sidebar-nav">
+    <a href="{{ site.baseurl }}/"
+       class="{% if page.url == '/' or page.url contains '/page' %}active{% endif %}">Blog</a>
+    <a href="{{ site.baseurl }}/projects/"
+       class="{% if page.url == '/projects/' or page.url contains '/projects/' %}active{% endif %}">Projects</a>
+    <a href="{{ site.baseurl }}/about/"
+       class="{% if page.url == '/about/' %}active{% endif %}">About</a>
+  </nav>
+
+  <div class="social-icons">
+    <a href="https://github.com/{{ site.github_username }}" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>GitHub</title><path d="M12,2A10,10 0 0,0 2,12C2,16.42 4.87,20.17 8.84,21.5C9.34,21.58 9.5,21.27 9.5,21C9.5,20.77 9.5,20.14 9.5,19.31C6.73,19.91 6.14,17.97 6.14,17.97C5.68,16.81 5.03,16.5 5.03,16.5C4.12,15.88 5.1,15.9 5.1,15.9C6.1,15.97 6.63,16.93 6.63,16.93C7.5,18.45 8.97,18 9.54,17.76C9.63,17.11 9.89,16.67 10.17,16.42C7.95,16.17 5.62,15.31 5.62,11.5C5.62,10.39 6,9.5 6.65,8.79C6.55,8.54 6.2,7.5 6.75,6.15C6.75,6.15 7.59,5.88 9.5,7.17C10.29,6.95 11.15,6.84 12,6.84C12.85,6.84 13.71,6.95 14.5,7.17C16.41,5.88 17.25,6.15 17.25,6.15C17.8,7.5 17.45,8.54 17.35,8.79C18,9.5 18.38,10.39 18.38,11.5C18.38,15.32 16.04,16.16 13.81,16.41C14.17,16.72 14.5,17.33 14.5,18.26C14.5,19.6 14.5,20.68 14.5,21C14.5,21.27 14.66,21.59 15.17,21.5C19.14,20.16 22,16.42 22,12A10,10 0 0,0 12,2Z"/></svg>
+    </a>
+    <a href="{{ site.linkedin_username }}" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>LinkedIn</title><path d="M19 3A2 2 0 0 1 21 5V19A2 2 0 0 1 19 21H5A2 2 0 0 1 3 19V5A2 2 0 0 1 5 3H19M18.5 18.5V13.2A3.26 3.26 0 0 0 15.24 9.94C14.39 9.94 13.4 10.46 12.92 11.24V10.13H10.13V18.5H12.92V13.57C12.92 12.8 13.54 12.17 14.31 12.17A1.4 1.4 0 0 1 15.71 13.57V18.5H18.5M6.88 8.56A1.68 1.68 0 0 0 8.56 6.88C8.56 5.95 7.81 5.19 6.88 5.19A1.69 1.69 0 0 0 5.19 6.88C5.19 7.81 5.95 8.56 6.88 8.56M8.27 18.5V10.13H5.5V18.5H8.27Z"/></svg>
+    </a>
+    <a href="mailto:{{ site.email }}" aria-label="Email">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>Email</title><path d="M22 6C22 4.9 21.1 4 20 4H4C2.9 4 2 4.9 2 6V18C2 19.1 2.9 20 4 20H20C21.1 20 22 19.1 22 18V6M20 6L12 11L4 6H20M20 18H4V8L12 13L20 8V18Z"/></svg>
+    </a>
+  </div>
+
+  <div id="toggle-color-mode" class="theme-toggle"></div>
 </aside>

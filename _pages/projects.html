@@ -4,21 +4,22 @@ title: Projects
 permalink: "/projects/"
 ---
 
-<h1 class="px-4">Projects</h1>
+<h1 style="font-size:1.5rem;font-weight:800;color:#111827;margin-bottom:0.4rem;">Projects</h1>
+<p style="font-size:0.85rem;color:#6b7280;margin-bottom:1.5rem;">Things I've built.</p>
 
 {% if site.projects.size == 0 %}
-<p>No entries yet</p>
+<p>No entries yet.</p>
 {% else %}
+<div class="projects-grid">
 {% for project in site.projects %}
-<a href="{{ project.url | prepend:site.baseurl }}">
-  <div class="px-4 py-4 rounded dark:hover:bg-zinc-800 hover:bg-gray-200">
-    <h6>Started: {{ project.started }} | Status: {{ project.status }}</h6>
-    <h2>{{ project.projectname }}</h2>
-    <div class="flex flex-col space-y-2.5 text-gray-700 dark:text-gray-200">
-      <div class="text-base font-normal md:text-lg">{{ project.description }}</div>
-      <div class="text-base font-normal md:text-lg">Built with: {{ project.techstack }}</div>
-    </div>
+<a href="{{ project.url | prepend:site.baseurl }}" class="project-card">
+  <div class="project-card-header">
+    <span class="project-card-title">{{ project.projectname }}</span>
+    <span class="project-card-status">{{ project.status }}</span>
   </div>
+  <p class="project-card-desc">{{ project.description }}</p>
+  <p class="project-card-stack">{{ project.techstack }}</p>
 </a>
 {% endfor %}
+</div>
 {% endif %}

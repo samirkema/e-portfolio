@@ -1,20 +1,68 @@
 ---
-layout: blog
+layout: default
 ---
 
-<h1 class="px-4">e-portfolio</h1>
-{% assign psize = site.posts | size %}
-{% if psize == 0 %}
-No entries available.
-{% else %}
-<div class="flex flex-col space-y-5">
-    {% for post in paginator.posts %}
-    <a href="{{ post.url | prepend:site.baseurl }}">
-        <div class="dark:hover:bg-zinc-800 hover:bg-gray-100 py-4 px-4 rounded">
-            <h6>{{ post.date | date: "%d.%m.%Y" }} | {{ post.category | capitalize }}</h6>
-            <h2>{{ post.title }}</h2>
-        </div>
+<div class="hero">
+  <p class="hero-greeting">👋 Welcome</p>
+  <h1 class="hero-title">Hi, I'm {{ site.name }}</h1>
+  <p class="hero-desc">
+    Engineering student in Digital Sciences at <strong>ENSEEIHT</strong>, France.
+    I build full-stack apps, explore AI, and create at the intersection of tech and art.
+    Incoming exchange student at <strong>NTU, Taiwan</strong> (Fall 2026).
+  </p>
+  <div class="hero-cta">
+    <a href="{{ site.baseurl }}/projects/" class="btn-primary">View Projects</a>
+    <a href="{{ site.baseurl }}/about/" class="btn-outline">About me</a>
+    <a href="{{ site.baseurl }}/assets/pdf/tamboura_samir_cv.pdf" target="_blank" class="btn-outline">Download CV</a>
+  </div>
+
+  <!-- Skills -->
+  <p class="section-label">Skills</p>
+  <div class="skills-grid">
+    <span class="skill-badge">Python</span>
+    <span class="skill-badge">Java</span>
+    <span class="skill-badge">JavaScript</span>
+    <span class="skill-badge">TypeScript</span>
+    <span class="skill-badge">C</span>
+    <span class="skill-badge">Julia</span>
+    <span class="skill-badge">Ada</span>
+    <span class="skill-badge">SQL</span>
+    <span class="skill-badge">MATLAB</span>
+    <span class="skill-badge">HTML / CSS</span>
+    <span class="skill-badge">React Native</span>
+    <span class="skill-badge">Node.js</span>
+    <span class="skill-badge">Jekyll</span>
+  </div>
+
+  <!-- Featured Projects -->
+  <p class="section-label">Featured Projects</p>
+  <div class="projects-grid">
+    <a href="{{ site.baseurl }}/projects/howmany/" class="project-card">
+      <div class="project-card-header">
+        <span class="project-card-title">HowMany</span>
+        <span class="project-card-status">Live</span>
+      </div>
+      <p class="project-card-desc">Mobile & web app to rate and share experiences (films, restaurants, travel…) with friends. Full-stack with React Native, Node.js and PostgreSQL.</p>
+      <p class="project-card-stack">React Native · Expo · TypeScript · Node.js · Supabase</p>
+    </a>
+    <a href="{{ site.baseurl }}/projects/otakushop/" class="project-card">
+      <div class="project-card-header">
+        <span class="project-card-title">OtakuShop & Swap</span>
+        <span class="project-card-status">Live</span>
+      </div>
+      <p class="project-card-desc">Manga & NFT art platform — gallery, manga reader, community games and custom commissions gated by subscription or NFT ownership.</p>
+      <p class="project-card-stack">Jekyll · Node.js · Supabase · Ethers.js · JWT</p>
+    </a>
+  </div>
+
+  <!-- Recent posts -->
+  <p class="section-label">Recent Posts</p>
+  <div class="post-list">
+    {% for post in site.posts limit:5 %}
+    <a href="{{ post.url | prepend:site.baseurl }}" class="post-item">
+      <span class="post-item-title">{{ post.title }}</span>
+      <span class="post-item-meta">{{ post.category | capitalize }} · {{ post.date | date: "%b %Y" }}</span>
     </a>
     {% endfor %}
+  </div>
 </div>
-{% endif %}

@@ -3,21 +3,148 @@ layout: default
 title: About me
 permalink: "/about/"
 ---
-# {{ page.title }}
 
-## Programming skills
+<div class="about-section">
+  <h2>👤 Who I am</h2>
+  <p style="font-size:0.9rem;color:#4b5563;line-height:1.75;">
+    I'm Samir Tamboura, an engineering student in Digital Sciences at <strong>ENSEEIHT</strong> (INP Toulouse). I have a background in mathematics, a passion for building full-stack applications, and a creative side through art and entrepreneurship. In Fall 2026 I'll be doing an exchange semester at <strong>National Taiwan University (NTU)</strong>.
+  </p>
+</div>
 
-- **Languages**: Python, Java, JavaScript, Julia, C, Ada, SQL, MATLAB
-- **Frontend**: HTML, CSS
+<div class="about-section">
+  <h2>🛠 Skills</h2>
+  <p style="font-size:0.8rem;color:#6b7280;margin-bottom:0.6rem;"><strong>Languages</strong></p>
+  <div class="skills-grid" style="margin-bottom:1rem;">
+    <span class="skill-badge">Python</span>
+    <span class="skill-badge">Java</span>
+    <span class="skill-badge">JavaScript</span>
+    <span class="skill-badge">TypeScript</span>
+    <span class="skill-badge">C</span>
+    <span class="skill-badge">Julia</span>
+    <span class="skill-badge">Ada</span>
+    <span class="skill-badge">SQL</span>
+    <span class="skill-badge">MATLAB</span>
+  </div>
+  <p style="font-size:0.8rem;color:#6b7280;margin-bottom:0.6rem;"><strong>Frameworks & tools</strong></p>
+  <div class="skills-grid">
+    <span class="skill-badge">React Native</span>
+    <span class="skill-badge">Expo</span>
+    <span class="skill-badge">Node.js</span>
+    <span class="skill-badge">Express</span>
+    <span class="skill-badge">Jekyll</span>
+    <span class="skill-badge">HTML / CSS</span>
+    <span class="skill-badge">Supabase</span>
+    <span class="skill-badge">PostgreSQL</span>
+    <span class="skill-badge">Ethers.js</span>
+    <span class="skill-badge">Git</span>
+  </div>
+</div>
 
-## Education
+<div class="about-section">
+  <h2>🎓 Education</h2>
+  <div class="timeline">
+    <div class="timeline-item">
+      <div class="timeline-line">
+        <div class="timeline-dot"></div>
+        <div class="timeline-connector"></div>
+      </div>
+      <div class="timeline-content">
+        <div class="timeline-title">Engineering Degree — Digital Sciences</div>
+        <div class="timeline-subtitle">ENSEEIHT · INP Toulouse</div>
+        <div class="timeline-date">2024 – 2028 (in progress)</div>
+      </div>
+    </div>
+    <div class="timeline-item">
+      <div class="timeline-line">
+        <div class="timeline-dot"></div>
+        <div class="timeline-connector"></div>
+      </div>
+      <div class="timeline-content">
+        <div class="timeline-title">Exchange Semester</div>
+        <div class="timeline-subtitle">National Taiwan University (NTU) · Taipei, Taiwan</div>
+        <div class="timeline-date">September – December 2026</div>
+      </div>
+    </div>
+    <div class="timeline-item">
+      <div class="timeline-line">
+        <div class="timeline-dot"></div>
+        <div class="timeline-connector"></div>
+      </div>
+      <div class="timeline-content">
+        <div class="timeline-title">Mathematics Degree (L1 – L2)</div>
+        <div class="timeline-subtitle">Université de La Rochelle</div>
+        <div class="timeline-date">2023 – 2025</div>
+      </div>
+    </div>
+  </div>
+</div>
 
-- Engineering degree (in progress) — ENSEEIHT, Digital Sciences, 2024–2028
-- Exchange semester — National Taiwan University (NTU), September–December 2026
-- Mathematics degree (L1–L2) — Université de La Rochelle, 2023–2025
+<div class="about-section">
+  <h2>💼 Experience</h2>
+  <div class="timeline">
+    <div class="timeline-item">
+      <div class="timeline-line">
+        <div class="timeline-dot"></div>
+        <div class="timeline-connector"></div>
+      </div>
+      <div class="timeline-content">
+        <div class="timeline-title">Software Engineer Intern</div>
+        <div class="timeline-subtitle">Cognitive Sand — AI for Business</div>
+        <div class="timeline-date">2025</div>
+        <div class="timeline-body">Software engineering internship at an AI-focused company building business intelligence tools.</div>
+      </div>
+    </div>
+    <div class="timeline-item">
+      <div class="timeline-line">
+        <div class="timeline-dot"></div>
+        <div class="timeline-connector"></div>
+      </div>
+      <div class="timeline-content">
+        <div class="timeline-title">Founder — OtakuShop & Swap</div>
+        <div class="timeline-subtitle">Freelance / Entrepreneurship</div>
+        <div class="timeline-date">2020 – present</div>
+        <div class="timeline-body">Co-founded a manga art business, grew it into a full blockchain-powered platform with NFTs, manga reading, community games and custom commissions.</div>
+      </div>
+    </div>
+    <div class="timeline-item">
+      <div class="timeline-line">
+        <div class="timeline-dot"></div>
+        <div class="timeline-connector"></div>
+      </div>
+      <div class="timeline-content">
+        <div class="timeline-title">Hospitality Work</div>
+        <div class="timeline-subtitle">France & England</div>
+        <div class="timeline-date">2020 – 2023</div>
+      </div>
+    </div>
+  </div>
+</div>
 
-## Experience
+<div class="about-section">
+  <h2>🏆 Events & Competitions</h2>
+  <div class="timeline">
+    <div class="timeline-item">
+      <div class="timeline-line">
+        <div class="timeline-dot"></div>
+        <div class="timeline-connector"></div>
+      </div>
+      <div class="timeline-content">
+        <div class="timeline-title">ENAC Hackathon</div>
+        <div class="timeline-subtitle">École Nationale de l'Aviation Civile · Toulouse</div>
+        <div class="timeline-date">Latest edition</div>
+        <div class="timeline-body">Participated in the ENAC Hackathon, collaborating in a team to build an innovative solution in a time-constrained environment.</div>
+      </div>
+    </div>
+  </div>
+</div>
 
-- **Software Engineer Intern** — Cognitive Sand *(AI for business)*, 2025
-- **Freelance Artist** — Co-founded OtakuShop, manga art sales, NFT platform, 2020–present
-- Hospitality work — France and England
+<div class="about-section">
+  <h2>🥋 Interests</h2>
+  <div class="skills-grid">
+    <span class="skill-badge">Judo — Black Belt</span>
+    <span class="skill-badge">Manga & Illustration</span>
+    <span class="skill-badge">Blockchain & NFTs</span>
+    <span class="skill-badge">AI / Machine Learning</span>
+    <span class="skill-badge">Travel</span>
+  </div>
+</div>
