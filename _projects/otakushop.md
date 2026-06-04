@@ -47,7 +47,6 @@ OtakuShop is a full-stack platform for manga and anime art fans. It combines a d
 ## NFT Collection
 
 - **Collection**: SWAP-SWAP on OpenSea
-- **Contract**: `0x08B139e2342A46226f3a67fd43c8B6A41C0C1303` (Ethereum mainnet)
 - NFT ownership verified on-chain via Alchemy — unlocks exclusive commissions
 
 ## Links
