@@ -123,6 +123,36 @@ permalink: "/about/"
 </div>
 
 <div class="about-section">
+  <h2>🤝 Associations</h2>
+  <div class="timeline">
+    <div class="timeline-item">
+      <div class="timeline-line">
+        <div class="timeline-dot"></div>
+        <div class="timeline-connector"></div>
+      </div>
+      <div class="timeline-content">
+        <div class="timeline-title">Secretary — <a href="https://www.linkedin.com/company/geniusn7/" target="_blank" rel="noopener noreferrer" style="color:inherit;">Génius N7</a></div>
+        <div class="timeline-subtitle">ENSEEIHT student association</div>
+        <div class="timeline-date">2024 – present</div>
+        <div class="timeline-body">Génius N7 is ENSEEIHT's entrepreneurship and innovation student association. As secretary, I help organise events, manage communications and support student entrepreneurs.</div>
+      </div>
+    </div>
+    <div class="timeline-item">
+      <div class="timeline-line">
+        <div class="timeline-dot"></div>
+        <div class="timeline-connector"></div>
+      </div>
+      <div class="timeline-content">
+        <div class="timeline-title">Member — <a href="https://www.linkedin.com/company/le-carré-toulouse/" target="_blank" rel="noopener noreferrer" style="color:inherit;">Le Carré</a></div>
+        <div class="timeline-subtitle">Toulouse entrepreneurship hub — linked to Génius N7</div>
+        <div class="timeline-date">2024 – present</div>
+        <div class="timeline-body">Le Carré is a Toulouse-based entrepreneurship association that brings together students and young entrepreneurs. My involvement stems from my role at Génius N7.</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="about-section">
   <h2>🏆 Events & Competitions</h2>
   <div class="timeline">
     <div class="timeline-item">
