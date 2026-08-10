@@ -36,11 +36,7 @@ linkedin_username: https://www.linkedin.com/in/samir-tamboura-0a064b203/
 
 plugins:
   - jekyll-feed
-  - jekyll-postcss
   - jekyll-paginate
-
-postcss:
-  cache: false
 
 paginate: 5
 paginate_path: "/page:num/"
