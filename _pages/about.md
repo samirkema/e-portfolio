@@ -7,7 +7,7 @@ permalink: "/about/"
 <div class="about-section">
   <h2>👤 Who I am</h2>
   <p style="font-size:0.9rem;color:#4b5563;line-height:1.75;">
-    Engineering student at <strong>ENSEEIHT</strong> in Digital Sciences, with a strong foundation in mathematics and computer science. I'm currently seeking a <strong>finance internship</strong>, with interests in quantitative strategies and data-driven investing. Passionate about bridging technology, finance, and the life sciences — particularly <strong>bio-informatics</strong> and <strong>HealthTech</strong>.
+    Engineering student at <strong>ENSEEIHT</strong> in Computer Science &amp; Applied Mathematics, with a strong foundation in mathematics and machine learning. I'm currently on an <strong>exchange semester at National Taiwan University</strong> in Taipei. My goal is to become an <strong>AI researcher</strong> or to work in <strong>finance</strong> — my main interests are machine learning, mathematical finance and quantitative strategies, and the intersection of AI and hardware.
   </p>
 </div>
 
@@ -62,7 +62,7 @@ permalink: "/about/"
       <div class="timeline-content">
         <div class="timeline-title">Exchange Semester</div>
         <div class="timeline-subtitle">National Taiwan University (NTU) · Taipei, Taiwan</div>
-        <div class="timeline-date">September – December 2026</div>
+        <div class="timeline-date">September – December 2026 (in progress)</div>
       </div>
     </div>
     <div class="timeline-item">

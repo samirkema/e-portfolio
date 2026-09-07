@@ -23,11 +23,11 @@ theme_name: bluegreen
 author: Björn Kawecki
 
 title: E-portfolio
-subtitle: Engineering student in digital sciences
+subtitle: Engineering student — AI research & quantitative finance
 name: Samir Tamboura
 
 email: samir.tamboura@etu.inp-n7.fr
-description: Hi, I'm Samir Tamboura, an engineering student in digital sciences at ENSEEIHT. This site is my e-portfolio. I hope you enjoy discovering my background, my projects, and my goals for the future.
+description: Hi, I'm Samir Tamboura, an engineering student in computer science and applied mathematics at ENSEEIHT, currently on exchange at National Taiwan University. I'm aiming for a career in AI research or quantitative finance. This site is my e-portfolio — my background, my projects, and my goals for the future.
 url: "https://samirkema.github.io"
 baseurl: "/e-portfolio"  
 twitter_username:
