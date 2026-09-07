@@ -7,7 +7,7 @@ permalink: "/about/"
 <div class="about-section">
   <h2>👤 Who I am</h2>
   <p style="font-size:0.9rem;color:#4b5563;line-height:1.75;">
-    Engineering student at <strong>ENSEEIHT</strong> in Computer Science &amp; Applied Mathematics, with a strong foundation in mathematics and machine learning. I'm currently on an <strong>exchange semester at National Taiwan University</strong> in Taipei. My goal is to become an <strong>AI researcher</strong> or to work in <strong>finance</strong> — my main interests are machine learning, mathematical finance and quantitative strategies, and the intersection of AI and hardware.
+    Engineering student at <strong>ENSEEIHT</strong> in Computer Science &amp; Applied Mathematics, with a strong foundation in mathematics and machine learning. I'm currently on an <strong>exchange semester at National Taiwan University</strong> in Taipei. My goal is to become an <strong>AI researcher</strong> or to work in <strong>financial markets</strong> — quant research, trading, and everything in between. My main interests are machine learning, mathematical finance, and the intersection of AI and hardware.
   </p>
 </div>
 
