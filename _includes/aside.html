@@ -9,7 +9,9 @@
 
   <nav class="sidebar-nav">
     <a href="{{ site.baseurl }}/"
-       class="{% if page.url == '/' or page.url contains '/page' %}active{% endif %}">Blog</a>
+       class="{% if page.url == '/' or page.url contains '/page' %}active{% endif %}">Accueil</a>
+    <a href="{{ site.baseurl }}/blog/"
+       class="{% if page.url == '/blog/' or page.layout == 'post' %}active{% endif %}">Blog</a>
     <a href="{{ site.baseurl }}/projects/"
        class="{% if page.url == '/projects/' or page.url contains '/projects/' %}active{% endif %}">Projects</a>
     <a href="{{ site.baseurl }}/about/"

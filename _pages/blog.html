@@ -1,0 +1,17 @@
+---
+layout: projects
+title: Blog
+permalink: "/blog/"
+---
+
+<h1 style="font-size:1.5rem;font-weight:800;color:#111827;margin-bottom:0.4rem;" class="dark-title">Blog</h1>
+<p style="font-size:0.85rem;color:#6b7280;margin-bottom:1.5rem;">Tous les posts.</p>
+
+<div class="post-list">
+  {% for post in site.posts %}
+  <a href="{{ post.url | prepend:site.baseurl }}" class="post-item">
+    <span class="post-item-title">{{ post.title }}</span>
+    <span class="post-item-meta">{{ post.category | capitalize }} · {{ post.date | date: "%b %Y" }}</span>
+  </a>
+  {% endfor %}
+</div>
