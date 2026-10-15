@@ -1,14 +1,14 @@
 ---
 layout: project
-title: OtakuShop & Swap
-projectname: OtakuShop & Swap
-description: A manga & NFT art platform — gallery, manga reading, community games, and custom commissions, gated by subscription or NFT ownership.
-description_fr: Une plateforme d'art manga et NFT — galerie, lecture de mangas, jeux communautaires et commandes personnalisées, réservés aux abonnés ou aux détenteurs de NFT.
-description_zh: 漫画与 NFT 艺术平台——画廊、漫画阅读、社区游戏和定制委托，需订阅或持有 NFT 才能使用。
+title: Vaisseau Manga 237 (formerly OtakuShop & Swap)
+projectname: Vaisseau Manga 237 (formerly OtakuShop & Swap)
+description: OtakuShop is now part of Vaisseau Mère 237 and becomes Vaisseau Manga 237 — a manga studio and online reading platform, with art direction, merch, covers, artistic services and art sales, built with Cameroonians.
+description_fr: OtakuShop intègre Vaisseau Mère 237 et devient Vaisseau Manga 237 — un studio manga et une plateforme de lecture en ligne, avec direction artistique, merch, covers, prestations artistiques et vente d'art, développé avec des Camerounais.
+description_zh: OtakuShop 并入 Vaisseau Mère 237，成为 Vaisseau Manga 237——一个漫画工作室和在线阅读平台，涵盖艺术指导、周边、封面设计、艺术服务和艺术品销售，与喀麦隆伙伴共同打造。
 started: 2020
 status: deployed
-uri: https://samirkema.github.io/otakusshopandswap/
-uri_h: samirkema.github.io/otakusshopandswap
+uri: https://vaisseaumanga237.vercel.app
+uri_h: vaisseaumanga237.vercel.app
 category: project
 techstack: Jekyll, Node.js, PostgreSQL, Supabase, Ethers.js, JWT
 ---
@@ -20,7 +20,19 @@ techstack: Jekyll, Node.js, PostgreSQL, Supabase, Ethers.js, JWT
 
 ## English
 
-### What is OtakuShop?
+### Now: Vaisseau Manga 237
+
+OtakuShop is now part of **Vaisseau Mère 237**, a digital production hub and creative-management structure developed with Cameroonians, and it becomes **Vaisseau Manga 237**. Within this new entity we produce on a much wider scale:
+
+- **Art direction and merch** for the artists we work with
+- **Covers** for rappers from across the African continent
+- **Artistic services of every kind** — photography, websites, design…
+- **Sales of paintings and photographs**
+- **The manga side** — story development like my webtoon, and an online reading platform. Each comic has its derived artworks, sold as paintings in the Vaisseau Mère shop.
+
+Links: [Vaisseau Mère 237](https://vaisseau-mere-237.vercel.app) · [Shop](https://vaisseau-mere-237.vercel.app/shop.html) · [Vaisseau Manga 237](https://vaisseaumanga237.vercel.app)
+
+### What is OtakuShop? (the original platform)
 
 OtakuShop is a full-stack platform for manga and anime art fans. It combines a digital art gallery, original manga reading, community games, and custom art commissions — with access levels controlled by subscription or NFT ownership.
 
@@ -64,7 +76,19 @@ OtakuShop is a full-stack platform for manga and anime art fans. It combines a d
 
 ## Français
 
-### Qu'est-ce qu'OtakuShop ?
+### Désormais : Vaisseau Manga 237
+
+OtakuShop intègre **Vaisseau Mère 237**, un hub de production digitale et de management de créatifs développé avec des Camerounais, et devient **Vaisseau Manga 237**. Au sein de cette nouvelle entité, nous produisons beaucoup plus largement :
+
+- **Direction artistique et merch** pour les artistes avec qui nous travaillons
+- **Covers** pour des rappeurs du continent africain
+- **Prestations artistiques en tout genre** — photo, sites internet, design…
+- **Vente de tableaux et de photographies**
+- **La partie manga** — développement d'histoires comme mon webtoon, et plateforme de lecture en ligne. Chaque BD a ses artworks dérivés, vendus comme tableaux sur le shop de Vaisseau Mère.
+
+Liens : [Vaisseau Mère 237](https://vaisseau-mere-237.vercel.app) · [Shop](https://vaisseau-mere-237.vercel.app/shop.html) · [Vaisseau Manga 237](https://vaisseaumanga237.vercel.app)
+
+### Qu'est-ce qu'OtakuShop ? (la plateforme d'origine)
 
 OtakuShop est une plateforme full-stack pour les fans d'art manga et anime. Elle réunit une galerie d'art numérique, la lecture de mangas originaux, des jeux communautaires et des commandes d'art personnalisées — avec des niveaux d'accès contrôlés par abonnement ou par possession d'un NFT.
 
@@ -108,7 +132,19 @@ OtakuShop est une plateforme full-stack pour les fans d'art manga et anime. Elle
 
 ## 中文
 
-### OtakuShop 是什么？
+### 现在：Vaisseau Manga 237
+
+OtakuShop 并入了 **Vaisseau Mère 237**（一个与喀麦隆伙伴共同发展的数字内容制作中心，兼做创意人才管理），并更名为 **Vaisseau Manga 237**。在这个新实体中，我们将在更广阔的范围内创作：
+
+- 为合作艺术家提供**艺术指导与周边（merch）**
+- 为非洲大陆各地的说唱歌手制作**封面**
+- **各类艺术服务**——摄影、网站、设计等
+- **画作与摄影作品的销售**
+- **漫画板块**——开发漫画故事（比如我自己的 webtoon）并建立在线阅读平台。每部漫画都有衍生艺术作品，作为画作在 Vaisseau Mère 的商店中出售。
+
+链接：[Vaisseau Mère 237](https://vaisseau-mere-237.vercel.app) · [商店](https://vaisseau-mere-237.vercel.app/shop.html) · [Vaisseau Manga 237](https://vaisseaumanga237.vercel.app)
+
+### OtakuShop 是什么？（最初的平台）
 
 OtakuShop 是一个面向漫画和动漫艺术爱好者的全栈平台。它集数字艺术画廊、原创漫画阅读、社区游戏和定制艺术委托于一体——访问权限由订阅或持有 NFT 来控制。
 

@@ -106,10 +106,10 @@ permalink: "/about/"
         <div class="timeline-connector"></div>
       </div>
       <div class="timeline-content">
-        <div class="timeline-title">Founder — OtakuShop &amp; Swap</div>
+        <div class="timeline-title">Founder — Vaisseau Manga 237 (formerly OtakuShop &amp; Swap)</div>
         <div class="timeline-subtitle">Freelance / Entrepreneurship</div>
         <div class="timeline-date">2020 – present</div>
-        <div class="timeline-body">Co-founded a manga art business, grew it into a full blockchain-powered platform with NFTs, manga reading, community games and custom commissions.<br>Cofondation d'une activité d'art manga, devenue une plateforme complète reposant sur la blockchain, avec NFT, lecture de mangas, jeux communautaires et commandes personnalisées.<br>共同创办了一家漫画艺术工作室，并将其发展为基于区块链的完整平台，包含 NFT、漫画阅读、社区游戏和定制委托。</div>
+        <div class="timeline-body">Co-founded a manga art business, grew it into a full blockchain-powered platform with NFTs, manga reading, community games and custom commissions.<br>Cofondation d'une activité d'art manga, devenue une plateforme complète reposant sur la blockchain, avec NFT, lecture de mangas, jeux communautaires et commandes personnalisées.<br>共同创办了一家漫画艺术工作室，并将其发展为基于区块链的完整平台，包含 NFT、漫画阅读、社区游戏和定制委托。<br><br>OtakuShop is now part of Vaisseau Mère 237 and becomes Vaisseau Manga 237, developed with Cameroonians: manga and webtoon, art direction, merch, covers, artistic services and art sales.<br>OtakuShop intègre Vaisseau Mère 237 et devient Vaisseau Manga 237, développé avec des Camerounais : manga et webtoon, direction artistique, merch, covers, prestations artistiques et vente d'art.<br>OtakuShop 并入 Vaisseau Mère 237，成为 Vaisseau Manga 237，与喀麦隆伙伴共同发展：漫画和 webtoon、艺术指导、周边、封面设计、艺术服务和艺术品销售。</div>
       </div>
     </div>
     <div class="timeline-item">
