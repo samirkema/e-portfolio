@@ -1,14 +1,12 @@
 ---
 layout: project
-title: Academic Projects — Projets académiques — 学业项目
-projectname: Academic Projects — Projets académiques — 学业项目
+title: Academic Projects
+projectname: Academic Projects
 description: An overview of projects completed during my engineering studies — Java, C, Ada, MATLAB, networks.
 description_fr: Panorama des projets réalisés en cours d'études d'ingénieur — Java, C, Ada, MATLAB, réseaux.
 description_zh: 工程师学习期间完成的项目概览——Java、C、Ada、MATLAB、网络。
 started: 2024
 status: academic
-status_fr: académique
-status_zh: 学业项目
 category: project
 techstack: Java, C, Ada, MATLAB, Linux, Cisco Packet Tracer
 ---

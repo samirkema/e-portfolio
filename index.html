@@ -3,8 +3,8 @@ layout: default
 ---
 
 <div class="hero">
-  <p class="hero-greeting">👋 Welcome · Bienvenue · 欢迎</p>
-  <h1 class="hero-title">Hi, I'm {{ site.name }}<span style="display:block;font-size:0.55em;font-weight:700;color:#6b7280;margin-top:0.2rem;">Bonjour, je suis {{ site.name }}</span><span style="display:block;font-size:0.55em;font-weight:700;color:#6b7280;">你好，我是 {{ site.name }}</span></h1>
+  <p class="hero-greeting">👋 Welcome</p>
+  <h1 class="hero-title">Hi, I'm {{ site.name }}</h1>
   <p class="hero-desc" style="margin-bottom:0.7rem;">
     Engineering student at <strong>ENSEEIHT</strong>, currently on exchange at <strong>National Taiwan University</strong>.
     I build things — an AI library to detect fake news and price its market impact, trading strategies, full-stack apps —
@@ -21,13 +21,13 @@ layout: default
     并希望继续构建下去，无论是成为 <strong>AI 研究员</strong>，还是在<strong>交易大厅</strong>工作。
   </p>
   <div class="hero-cta">
-    <a href="{{ site.baseurl }}/projects/" class="btn-primary">View Projects · Voir les projets · 查看项目</a>
-    <a href="{{ site.baseurl }}/about/" class="btn-outline">About me · À propos de moi · 关于我</a>
-    <a href="{{ site.baseurl }}/informations/2025/01/01/cv.html" class="btn-outline">Download CV · Télécharger le CV · 下载简历</a>
+    <a href="{{ site.baseurl }}/projects/" class="btn-primary">View Projects</a>
+    <a href="{{ site.baseurl }}/about/" class="btn-outline">About me</a>
+    <a href="{{ site.baseurl }}/informations/2025/01/01/cv.html" class="btn-outline">Download CV</a>
   </div>
 
   <!-- Skills -->
-  <p class="section-label">Skills · Compétences · 技能</p>
+  <p class="section-label">Skills</p>
   <div class="skills-grid">
     <span class="skill-badge">Python</span>
     <span class="skill-badge">Java</span>
@@ -45,12 +45,12 @@ layout: default
   </div>
 
   <!-- Featured Projects -->
-  <p class="section-label">Featured Projects · Projets phares · 精选项目</p>
+  <p class="section-label">Featured Projects</p>
   <div class="projects-grid">
     <a href="{{ site.baseurl }}/projects/howmany/" class="project-card">
       <div class="project-card-header">
         <span class="project-card-title">HowMany</span>
-        <span class="project-card-status">Live · En ligne · 已上线</span>
+        <span class="project-card-status">Live</span>
       </div>
       <p class="project-card-desc">Mobile &amp; web app to rate and share experiences (films, restaurants, travel…) with friends. Full-stack with React Native, Node.js and PostgreSQL.<br>Application mobile et web pour noter et partager des expériences (films, restaurants, voyages…) avec ses amis. Full-stack avec React Native, Node.js et PostgreSQL.<br>手机和网页应用，可与朋友评分并分享体验（电影、餐厅、旅行……）。使用 React Native、Node.js 和 PostgreSQL 的全栈开发。</p>
       <p class="project-card-stack">React Native · Expo · TypeScript · Node.js · Supabase</p>
@@ -58,7 +58,7 @@ layout: default
     <a href="{{ site.baseurl }}/projects/otakushop/" class="project-card">
       <div class="project-card-header">
         <span class="project-card-title">OtakuShop & Swap</span>
-        <span class="project-card-status">Live · En ligne · 已上线</span>
+        <span class="project-card-status">Live</span>
       </div>
       <p class="project-card-desc">Manga &amp; NFT art platform — gallery, manga reader, community games and custom commissions gated by subscription or NFT ownership.<br>Plateforme d'art manga et NFT — galerie, lecteur de mangas, jeux communautaires et commandes personnalisées réservés aux abonnés ou aux détenteurs de NFT.<br>漫画与 NFT 艺术平台——画廊、漫画阅读器、社区游戏和定制委托，需订阅或持有 NFT 才能使用。</p>
       <p class="project-card-stack">Jekyll · Node.js · Supabase · Ethers.js · JWT</p>
@@ -66,7 +66,7 @@ layout: default
   </div>
 
   <!-- Currently reading -->
-  <p class="section-label">Currently Reading · Lectures en cours · 正在阅读</p>
+  <p class="section-label">Currently Reading</p>
   <div class="reading-list">
     <div class="reading-item">
       <span class="reading-emoji">📖</span>
@@ -99,7 +99,7 @@ layout: default
   </div>
 
   <!-- Recent posts -->
-  <p class="section-label">Recent Posts · Articles récents · 最新文章</p>
+  <p class="section-label">Recent Posts</p>
   <div class="post-list">
     {% for post in site.posts limit:5 %}
     <a href="{{ post.url | prepend:site.baseurl }}" class="post-item">

@@ -7,8 +7,6 @@ description_fr: Une plateforme d'art manga et NFT — galerie, lecture de mangas
 description_zh: 漫画与 NFT 艺术平台——画廊、漫画阅读、社区游戏和定制委托，需订阅或持有 NFT 才能使用。
 started: 2020
 status: deployed
-status_fr: déployé
-status_zh: 已上线
 uri: https://samirkema.github.io/otakusshopandswap/
 uri_h: samirkema.github.io/otakusshopandswap
 category: project

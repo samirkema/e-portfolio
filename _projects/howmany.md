@@ -7,8 +7,6 @@ description_fr: Une application mobile et web pour noter et partager vos expéri
 description_zh: 一款手机和网页应用，可与朋友评分并分享体验（电影、餐厅、旅行、音乐……）。
 started: 2024
 status: deployed
-status_fr: déployé
-status_zh: 已上线
 uri: https://howmany-three.vercel.app
 uri_h: howmany-three.vercel.app
 category: project

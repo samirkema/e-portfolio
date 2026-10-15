@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Internship at Cognitive Sand — Stage chez Cognitive Sand — Cognitive Sand 实习
+title: Internship at Cognitive Sand
 category: stage
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Fake News Trading, a startup run by AI agents — une startup dirigée par des agents IA — 由 AI 智能体经营的初创公司
+title: Fake News Trading, a startup run by AI agents
 category: projet
 ---
 

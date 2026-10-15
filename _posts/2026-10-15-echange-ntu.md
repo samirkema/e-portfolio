@@ -1,6 +1,6 @@
 ---
 layout: post
-title: My exchange at NTU — Mon échange à NTU — 交换生活在国立台湾大学
+title: My exchange at NTU
 category: ntu
 ---
 

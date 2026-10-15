@@ -4,8 +4,8 @@ title: Projects
 permalink: "/projects/"
 ---
 
-<h1 style="font-size:1.5rem;font-weight:800;color:#111827;margin-bottom:0.4rem;">Projects · Projets · 项目</h1>
-<p style="font-size:0.85rem;color:#6b7280;margin-bottom:1.5rem;">Things I've built · Ce que j'ai construit · 我做过的作品。</p>
+<h1 style="font-size:1.5rem;font-weight:800;color:#111827;margin-bottom:0.4rem;">Projects</h1>
+<p style="font-size:0.85rem;color:#6b7280;margin-bottom:1.5rem;">Things I've built.</p>
 
 {% if site.projects.size == 0 %}
 <p>No entries yet.</p>
@@ -15,7 +15,7 @@ permalink: "/projects/"
 <a href="{{ project.url | prepend:site.baseurl }}" class="project-card">
   <div class="project-card-header">
     <span class="project-card-title">{{ project.projectname }}</span>
-    <span class="project-card-status">{{ project.status }}{% if project.status_fr %} · {{ project.status_fr }} · {{ project.status_zh }}{% endif %}</span>
+    <span class="project-card-status">{{ project.status }}</span>
   </div>
   <p class="project-card-desc">{{ project.description }}{% if project.description_fr %}<br>{{ project.description_fr }}<br>{{ project.description_zh }}{% endif %}</p>
   <p class="project-card-stack">{{ project.techstack }}</p>
