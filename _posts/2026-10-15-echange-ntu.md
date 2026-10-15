@@ -1,13 +1,13 @@
 ---
 layout: post
-title: My exchange at NTU — Mon échange à NTU — 交換生活在國立臺灣大學
+title: My exchange at NTU — Mon échange à NTU — 交换生活在国立台湾大学
 category: ntu
 ---
 
-![國立臺灣大學校園]({{ '/assets/img/ntu/ntu-campus.jpg' | relative_url }})
+![国立台湾大学校园]({{ '/assets/img/ntu/ntu-campus.jpg' | relative_url }})
 *The NTU campus.*  
 *Le campus de NTU.*  
-*國立臺灣大學校園。*
+*国立台湾大学校园。*
 
 ## English
 
@@ -17,7 +17,7 @@ I've been at National Taiwan University (NTU) for a month and a half, and it's a
 
 At NTU, I can build my own program around my interests and combine mathematics, computer science and robotics. I'm currently taking:
 
-- [隨機程序及應用](https://cool.ntu.edu.tw/courses/62350) (stochastic processes and applications): my favorite course.
+- [随机程序及应用](https://cool.ntu.edu.tw/courses/62350) (stochastic processes and applications): my favorite course.
 - Robotics
 - Formal Languages and Automata Theory: the theoretical foundations of computer science.
 - Parallel Programming
@@ -45,7 +45,7 @@ Cela fait un mois et demi que je suis à NTU (National Taiwan University), et c'
 
 À NTU, je peux composer mon programme selon mes envies et associer mathématiques, informatique et robotique. Je suis actuellement :
 
-- [隨機程序及應用](https://cool.ntu.edu.tw/courses/62350) (processus stochastiques et applications) : mon cours préféré.
+- [随机程序及应用](https://cool.ntu.edu.tw/courses/62350) (processus stochastiques et applications) : mon cours préféré.
 - Robotics
 - Formal Languages and Automata Theory : les fondements théoriques de l'informatique.
 - Parallel Programming
@@ -67,26 +67,26 @@ La vie à Taipei est passionnante : il y a tant de choses à visiter et à déco
 
 ## 中文
 
-我來到國立臺灣大學（NTU）交換已經一個半月了，這真的是一段很棒的經驗。我會在這裡待到十二月。
+我来到国立台湾大学（NTU）交换已经一个半月了，这真的是一段很棒的经历。我会在这里待到十二月。
 
-**自由選課**
+**自由选课**
 
-在 NTU，我可以依照自己的興趣自由搭配課程，把數學、電腦科學和機器人結合在一起。我目前修的課有：
+在 NTU，我可以依照自己的兴趣自由搭配课程，把数学、计算机科学和机器人结合在一起。我目前修的课有：
 
-- [隨機程序及應用](https://cool.ntu.edu.tw/courses/62350)：我最喜歡的一門課。
-- 機器人學（Robotics）
-- 形式語言與自動機理論（Formal Languages and Automata Theory）：電腦科學的理論基礎。
-- 平行程式設計（Parallel Programming）
-- 中文課
+- [随机程序及应用](https://cool.ntu.edu.tw/courses/62350)：我最喜欢的一门课。
+- 机器人学（Robotics）
+- 形式语言与自动机理论（Formal Languages and Automata Theory）：计算机科学的理论基础。
+- 并行编程（Parallel Programming）
+- 中文课
 
-**我愛上了隨機數學**
+**我爱上了随机数学**
 
-隨機數學讓我著迷。它的應用不只一個領域：物理、金融、電子都用得到，而且每一個都非常驚人。能看到同一套數學工具在不同領域裡發揮作用，學起來真的很有趣。
+随机数学让我着迷。它的应用不只一个领域：物理、金融、电子都用得到，而且每一个都非常惊人。能看到同一套数学工具在不同领域里发挥作用，学起来真的很有趣。
 
-**中文課**
+**中文课**
 
-中文課不太容易，但我覺得自己進步的速度比以往任何時候都快。每天生活在中文環境裡，課堂上學到的東西馬上就能在日常生活中練習。
+中文课不太容易，但我觉得自己进步的速度比以往任何时候都快。每天生活在中文环境里，课堂上学到的东西马上就能在日常生活中练习。
 
-**臺北的生活**
+**台北的生活**
 
-臺北的生活非常精彩，有太多地方可以參觀、太多事物可以探索，一個半月遠遠不夠。接下來的日子，我會繼續探索這座城市，也會在這裡分享更多。
+台北的生活非常精彩，有太多地方可以参观、太多事物可以探索，一个半月远远不够。接下来的日子，我会继续探索这座城市，也会在这里分享更多。

@@ -3,21 +3,31 @@ layout: default
 ---
 
 <div class="hero">
-  <p class="hero-greeting">👋 Welcome</p>
-  <h1 class="hero-title">Hi, I'm {{ site.name }}</h1>
-  <p class="hero-desc">
+  <p class="hero-greeting">👋 Welcome · Bienvenue · 欢迎</p>
+  <h1 class="hero-title">Hi, I'm {{ site.name }}<span style="display:block;font-size:0.55em;font-weight:700;color:#6b7280;margin-top:0.2rem;">Bonjour, je suis {{ site.name }}</span><span style="display:block;font-size:0.55em;font-weight:700;color:#6b7280;">你好，我是 {{ site.name }}</span></h1>
+  <p class="hero-desc" style="margin-bottom:0.7rem;">
     Engineering student at <strong>ENSEEIHT</strong>, currently on exchange at <strong>National Taiwan University</strong>.
     I build things — an AI library to detect fake news and price its market impact, trading strategies, full-stack apps —
     and I want to keep building them, either as an <strong>AI researcher</strong> or on a <strong>trading floor</strong>.
   </p>
+  <p class="hero-desc" style="margin-bottom:0.7rem;">
+    Étudiant ingénieur à l'<strong>ENSEEIHT</strong>, actuellement en échange à la <strong>National Taiwan University</strong>.
+    Je construis des choses — une bibliothèque d'IA pour détecter les fake news et chiffrer leur impact sur les marchés, des stratégies de trading, des applications full-stack —
+    et je veux continuer, comme <strong>chercheur en IA</strong> ou sur une <strong>salle de marché</strong>.
+  </p>
+  <p class="hero-desc" style="margin-bottom:0.7rem;">
+    <strong>ENSEEIHT</strong> 的工程师学生，目前在<strong>国立台湾大学</strong>交换。
+    我喜欢动手构建——一个检测假新闻并评估其市场影响的 AI 库、交易策略、全栈应用——
+    并希望继续构建下去，无论是成为 <strong>AI 研究员</strong>，还是在<strong>交易大厅</strong>工作。
+  </p>
   <div class="hero-cta">
-    <a href="{{ site.baseurl }}/projects/" class="btn-primary">View Projects</a>
-    <a href="{{ site.baseurl }}/about/" class="btn-outline">About me</a>
-    <a href="{{ site.baseurl }}/assets/pdf/tamboura_samir_cv.pdf" target="_blank" class="btn-outline">Download CV</a>
+    <a href="{{ site.baseurl }}/projects/" class="btn-primary">View Projects · Voir les projets · 查看项目</a>
+    <a href="{{ site.baseurl }}/about/" class="btn-outline">About me · À propos de moi · 关于我</a>
+    <a href="{{ site.baseurl }}/assets/pdf/tamboura_samir_cv.pdf" target="_blank" class="btn-outline">Download CV · Télécharger le CV · 下载简历</a>
   </div>
 
   <!-- Skills -->
-  <p class="section-label">Skills</p>
+  <p class="section-label">Skills · Compétences · 技能</p>
   <div class="skills-grid">
     <span class="skill-badge">Python</span>
     <span class="skill-badge">Java</span>
@@ -35,28 +45,28 @@ layout: default
   </div>
 
   <!-- Featured Projects -->
-  <p class="section-label">Featured Projects</p>
+  <p class="section-label">Featured Projects · Projets phares · 精选项目</p>
   <div class="projects-grid">
     <a href="{{ site.baseurl }}/projects/howmany/" class="project-card">
       <div class="project-card-header">
         <span class="project-card-title">HowMany</span>
-        <span class="project-card-status">Live</span>
+        <span class="project-card-status">Live · En ligne · 已上线</span>
       </div>
-      <p class="project-card-desc">Mobile & web app to rate and share experiences (films, restaurants, travel…) with friends. Full-stack with React Native, Node.js and PostgreSQL.</p>
+      <p class="project-card-desc">Mobile &amp; web app to rate and share experiences (films, restaurants, travel…) with friends. Full-stack with React Native, Node.js and PostgreSQL.<br>Application mobile et web pour noter et partager des expériences (films, restaurants, voyages…) avec ses amis. Full-stack avec React Native, Node.js et PostgreSQL.<br>手机和网页应用，可与朋友评分并分享体验（电影、餐厅、旅行……）。使用 React Native、Node.js 和 PostgreSQL 的全栈开发。</p>
       <p class="project-card-stack">React Native · Expo · TypeScript · Node.js · Supabase</p>
     </a>
     <a href="{{ site.baseurl }}/projects/otakushop/" class="project-card">
       <div class="project-card-header">
         <span class="project-card-title">OtakuShop & Swap</span>
-        <span class="project-card-status">Live</span>
+        <span class="project-card-status">Live · En ligne · 已上线</span>
       </div>
-      <p class="project-card-desc">Manga & NFT art platform — gallery, manga reader, community games and custom commissions gated by subscription or NFT ownership.</p>
+      <p class="project-card-desc">Manga &amp; NFT art platform — gallery, manga reader, community games and custom commissions gated by subscription or NFT ownership.<br>Plateforme d'art manga et NFT — galerie, lecteur de mangas, jeux communautaires et commandes personnalisées réservés aux abonnés ou aux détenteurs de NFT.<br>漫画与 NFT 艺术平台——画廊、漫画阅读器、社区游戏和定制委托，需订阅或持有 NFT 才能使用。</p>
       <p class="project-card-stack">Jekyll · Node.js · Supabase · Ethers.js · JWT</p>
     </a>
   </div>
 
   <!-- Currently reading -->
-  <p class="section-label">Currently Reading</p>
+  <p class="section-label">Currently Reading · Lectures en cours · 正在阅读</p>
   <div class="reading-list">
     <div class="reading-item">
       <span class="reading-emoji">📖</span>
@@ -89,7 +99,7 @@ layout: default
   </div>
 
   <!-- Recent posts -->
-  <p class="section-label">Recent Posts</p>
+  <p class="section-label">Recent Posts · Articles récents · 最新文章</p>
   <div class="post-list">
     {% for post in site.posts limit:5 %}
     <a href="{{ post.url | prepend:site.baseurl }}" class="post-item">

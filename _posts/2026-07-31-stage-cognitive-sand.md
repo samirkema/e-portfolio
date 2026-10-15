@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Internship at Cognitive Sand — Stage chez Cognitive Sand — Cognitive Sand 實習
+title: Internship at Cognitive Sand — Stage chez Cognitive Sand — Cognitive Sand 实习
 category: stage
 ---
 
 ![Workspace at the Artilect FabLab]({{ '/assets/img/sand/Snapchat-501977280.jpg' | relative_url }})
 *Under the brick vaults of the Artilect FabLab — my workspace for six weeks.*  
 *Sous les voûtes en brique de l'Artilect FabLab — mon poste de travail pendant six semaines.*  
-*在 Artilect FabLab 的磚造拱頂下——我這六週的工作位置。*
+*在 Artilect FabLab 的砖造拱顶下——我这六周的工作位置。*
 
 ## English
 
@@ -75,42 +75,42 @@ Travailler au cœur de l'Artilect FabLab a offert un cadre stimulant et pluridis
 
 ## 中文
 
-我在 **Cognitive Sand** 實習了六週（2026 年 6 月至 7 月）。這是一家由 **Jean-Michel Rogero** 創立的 AI 新創公司，他是前空中巴士（Airbus）工程師，後來投身科技創業。實習地點在圖盧茲的 **Artilect FabLab**。
+我在 **Cognitive Sand** 实习了六周（2026 年 6 月至 7 月）。这是一家由 **Jean-Michel Rogero** 创立的 AI 初创公司，他是前空中客车（Airbus）工程师，后来投身科技创业。实习地点在图卢兹的 **Artilect FabLab**。
 
-**人文且跨領域的環境**
+**人文且跨领域的环境**
 
-看到一位經驗豐富的航太專業人士從零開始創辦新創公司，讓我深受啟發。公司共有兩位實習生：我與另一位來自 **IPSA**（法國高等航空航太工程學院）的實習夥伴密切合作，尤其是以配對程式設計（pair-programming）的方式，共同完成 `md2pdf` 專案的設計與完整開發。
+看到一位经验丰富的航天专业人士从零开始创办初创公司，让我深受启发。公司共有两位实习生：我与另一位来自 **IPSA**（法国高等航空航天工程学院）的实习伙伴密切合作，尤其是以结对编程（pair-programming）的方式，共同完成 `md2pdf` 项目的设计与完整开发。
 
-在 Artilect FabLab 工作，提供了一個充滿刺激的跨領域環境，遠遠超出純軟體的範圍：我第一次接觸 3D 列印，並做出了第一個實體作品。
+在 Artilect FabLab 工作，提供了一个充满刺激的跨领域环境，远远超出纯软件的范围：我第一次接触 3D 打印，并做出了第一个实物作品。
 
-**開發方法**
+**开发方法**
 
-- **AI 驅動開發（AI-Driven Development）：** 每天使用程式代理（Claude Code）來產生、優化並系統性地審查程式碼。
-- **規格驅動開發（Spec-Driven Development, SDD）：** 透過撰寫正式的 *Requirements* 與 *User Stories*，嚴謹地界定需求。
-- **整潔架構（Clean Architecture，Uncle Bob）：** 設計模組化系統，讓商業邏輯與硬體元件彼此解耦。
+- **AI 驱动开发（AI-Driven Development）：** 每天使用编程智能体（Claude Code）来生成、优化并系统性地审查代码。
+- **规格驱动开发（Spec-Driven Development, SDD）：** 通过撰写正式的 *Requirements* 与 *User Stories*，严谨地界定需求。
+- **整洁架构（Clean Architecture，Uncle Bob）：** 设计模块化系统，让业务逻辑与硬件组件彼此解耦。
 
-**完成的技術專案**
+**完成的技术项目**
 
-- **多硬體語音轉文字 — `cognitive_note`：** 以整潔架構實作的非同步 Python 串流轉錄函式庫，能自動進行硬體 *preflight* 偵測（CUDA、Apple Silicon MLX、CPU），並支援多種引擎（Whisper、Parakeet）。
-- **代理同步 — `agents_sync`：** 負責自主 AI 代理工作流程的編排、狀態管理與協調。
-- **PDF 文件產生器 — `md2pdf`**（*IPSA x ENSEEIHT 雙人組*）：由兩人透過 AI 輔助的配對程式設計，完整設計並開發的 Markdown 轉 PDF 轉換器，結合了我們在資訊工程與航太工程上的專長。
+- **多硬件语音转文字 — `cognitive_note`：** 以整洁架构实现的异步 Python 流式转录库，能自动进行硬件 *preflight* 检测（CUDA、Apple Silicon MLX、CPU），并支援多种引擎（Whisper、Parakeet）。
+- **智能体同步 — `agents_sync`：** 负责自主 AI 智能体工作流的编排、状态管理与协调。
+- **PDF 文档生成器 — `md2pdf`**（*IPSA x ENSEEIHT 双人组*）：由两人通过 AI 辅助的结对编程，完整设计并开发的 Markdown 转 PDF 转换器，结合了我们在计算机工程与航天工程上的专长。
 
-**總結**
+**总结**
 
-| 學習面向 | 收穫與成果 |
+| 学习面向 | 收获与成果 |
 |---|---|
-| 領導力與合作 | 了解公司如何創立（前 Airbus），並與跨領域夥伴（IPSA）搭檔合作 |
-| 創客文化與硬體 | 在 Artilect FabLab 接觸 3D 建模與 3D 列印 |
-| AI 與系統工程 | 整潔架構、規格驅動開發、AI 驅動開發（Claude Code）、非同步 Python、CUDA / MLX |
+| 领导力与合作 | 了解公司如何创立（前 Airbus），并与跨领域伙伴（IPSA）搭档合作 |
+| 创客文化与硬件 | 在 Artilect FabLab 接触 3D 建模与 3D 打印 |
+| AI 与系统工程 | 整洁架构、规格驱动开发、AI 驱动开发（Claude Code）、异步 Python、CUDA / MLX |
 
 ---
 
 ![3D printer at the FabLab]({{ '/assets/img/sand/20260706_134647.jpg' | relative_url }})
 *An introduction to 3D printing — the FabLab's Creality printer, reserved for PLA/PLA+.*  
 *Initiation à l'impression 3D — imprimante Creality du FabLab, réservée au PLA/PLA+.*  
-*3D 列印入門——FabLab 的 Creality 印表機，僅限使用 PLA/PLA+。*
+*3D 打印入门——FabLab 的 Creality 印表机，仅限使用 PLA/PLA+。*
 
 ![Toulouse, steps from the FabLab]({{ '/assets/img/sand/20260704_131830.jpg' | relative_url }})
 *Toulouse, steps from the Artilect FabLab.*  
 *Toulouse, à deux pas de l'Artilect FabLab.*  
-*圖盧茲，距離 Artilect FabLab 只有幾步之遙。*
+*图卢兹，距离 Artilect FabLab 只有几步之遥。*

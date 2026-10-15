@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Fake News Trading, a startup run by AI agents — une startup dirigée par des agents IA — 由 AI 代理經營的新創公司
+title: Fake News Trading, a startup run by AI agents — une startup dirigée par des agents IA — 由 AI 智能体经营的初创公司
 category: projet
 ---
 
@@ -11,7 +11,7 @@ category: projet
 
 *Demo: I simply ask the agent to introduce itself. It starts its run, then explains its own scope, what it doesn't touch, and its rules.*  
 *Démo : je demande à l'agent de se présenter — il lance son run, puis explique lui-même son périmètre, ce qu'il ne touche pas et ses règles.*  
-*示範：我只是請代理自我介紹。它啟動執行後，自己說明它的職責範圍、不會碰的東西，以及它的規則。*
+*示范：我只是请智能体自我介绍。它启动执行后，自己说明它的职责范围、不会碰的东西，以及它的规则。*
 
 ## English
 
@@ -81,34 +81,34 @@ Je partagerai la suite : les premières vraies tâches, les ratés et ce que les
 
 ## 中文
 
-我的 **Fake News Trading** 專案現在像一家小型新創公司一樣運作。我是 CEO，而整個團隊都由 AI 代理組成。🚀
+我的 **Fake News Trading** 项目现在像一家小型初创公司一样运作。我是 CEO，而整个团队都由 AI 智能体组成。🚀
 
-我負責訂定優先順序，並決定什麼內容可以上線。Claude Code 代理負責執行工作，使用者的回饋則會進入待辦清單（backlog）。
+我负责制定优先级，并决定什么内容可以上线。Claude Code 智能体负责执行工作，用户的反馈则会进入待办事项（backlog）。
 
-**「代理室」**
+**「智能体室」**
 
-為了統籌這一切，我用 Claude Code 打造了一間「代理室」。它是一個網頁聊天室：我輸入「@pipeline-dev 去做 X」，代理就會在 GitHub Actions 上啟動。接著它會在任務串中逐步說明每個步驟：計畫、動到的檔案、測試、總結，以及 PR 的連結。
+为了统筹这一切，我用 Claude Code 打造了一间「智能体室」。它是一个网页聊天室：我输入「@pipeline-dev 去做 X」，智能体就会在 GitHub Actions 上启动。接着它会在任务串中逐步说明每个步骤：计划、动到的档案、测试、总结，以及 PR 的连结。
 
-**團隊成員**
+**团队成员**
 
-- **product-triage**：每天早上閱讀論壇回饋與聯絡信件，再整理成待辦清單；
-- **pipeline-dev**：開發資料模組：爬蟲（Scraper）→ 評估器（Evaluator）→ 情境化器（Contextualizer）；
-- **frontend-forum-dev**：負責網站、帳號與論壇；
-- **release-captain**：讓審查與稽核代理檢視每一項變更，然後撰寫 PR。
+- **product-triage**：每天早上阅读论坛反馈与联系邮件，再整理成待办事项；
+- **pipeline-dev**：开发数据模块：爬虫（Scraper）→ 评估器（Evaluator）→ 情境化器（Contextualizer）；
+- **frontend-forum-dev**：负责网站、账号与论坛；
+- **release-captain**：让审查与审计智能体审查每一项变更，然后撰写 PR。
 
 **流程**
 
-論壇回饋 → 分類（triage）→ 開發 → 交叉審查 → release-captain → 我。
+论坛反馈 → 分类（triage）→ 开发 → 交叉审查 → release-captain → 我。
 
-代理之間也可以互相提及，把工作交接給對方。而且每天，資料蒐集管線與 triage 都會自動執行，就算我的電腦關機也一樣。
+智能体之间也可以互相提及，把工作交接给对方。而且每天，数据收集流水线与 triage 都会自动执行，就算我的电脑关机也一样。
 
-**不可妥協的規則**
+**不可妥协的规则**
 
-沒有任何代理會自行合併（merge）或部署。它們負責準備工作、提出 PR，然後就停下來。最終的簽核由我來做。這個專案衡量的是一個訊號，絕不提供投資建議。
+没有任何智能体会自行合并（merge）或部署。它们负责准备工作、提出 PR，然后就停下来。最终的签字确认由我来做。这个项目衡量的是一个讯号，绝不提供投资建议。
 
-到目前為止，我一直在打基礎：架構、資料庫與遊戲規則。現在團隊已經就位，專案才真正開始。💪
+到目前为止，我一直在打基础：架构、数据库与游戏规则。现在团队已经就位，项目才真正开始。💪
 
-接下來我會分享後續進展：第一批真正的任務、失敗的經驗，以及代理能（或不能）交付什麼。
+接下来我会分享后续进展：第一批真正的任务、失败的经验，以及智能体能（或不能）交付什么。
 
 ---
 
