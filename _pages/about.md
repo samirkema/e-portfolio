@@ -7,13 +7,13 @@ permalink: "/about/"
 <div class="about-section">
   <h2>👤 Who I am</h2>
   <p style="font-size:0.9rem;color:#4b5563;line-height:1.75;margin-bottom:0.7rem;">
-    Engineering student at <strong>ENSEEIHT</strong> in Computer Science &amp; Applied Mathematics, with a strong foundation in mathematics and machine learning. I'm currently on an <strong>exchange semester at National Taiwan University</strong> in Taipei. My goal is to become an <strong>AI researcher</strong> or to work in <strong>financial markets</strong> — quant research, trading, and everything in between. My main interests are machine learning, mathematical finance, and the intersection of AI and hardware.
+    Engineering student at <strong>ENSEEIHT</strong>, on exchange at <strong>National Taiwan University</strong>. I'm fascinated by <strong>AI</strong> and the pace at which it is changing, by <strong>finance</strong> — financial markets above all — and by <strong>physics</strong> and <strong>engineering</strong>. I have a <strong>builder mindset</strong>: I dig deeper into what I learn in class by turning it into projects of my own. I'm now looking for hands-on experience in <strong>research</strong> or <strong>trading</strong>.
   </p>
   <p style="font-size:0.9rem;color:#4b5563;line-height:1.75;margin-bottom:0.7rem;">
-    Étudiant ingénieur à l'<strong>ENSEEIHT</strong> en informatique et mathématiques appliquées, avec de solides bases en mathématiques et en machine learning. Je suis actuellement en <strong>semestre d'échange à la National Taiwan University</strong> à Taipei. Mon objectif : devenir <strong>chercheur en IA</strong> ou travailler sur les <strong>marchés financiers</strong> — recherche quantitative, trading et tout ce qui se trouve entre les deux. Mes principaux centres d'intérêt sont le machine learning, la finance mathématique et l'intersection entre l'IA et le matériel.
+    Étudiant ingénieur à l'<strong>ENSEEIHT</strong>, en échange à la <strong>National Taiwan University</strong>. L'<strong>IA</strong> et la vitesse à laquelle elle évolue me fascinent, tout comme la <strong>finance</strong> — les marchés en particulier —, la <strong>physique</strong> et l'<strong>ingénierie</strong>. J'ai un <strong>esprit de builder</strong> : ce que j'apprends en cours, je le creuse plus en profondeur à travers mes propres projets. Je cherche aujourd'hui une expérience concrète en <strong>recherche</strong> ou en <strong>trading</strong>.
   </p>
   <p style="font-size:0.9rem;color:#4b5563;line-height:1.75;margin-bottom:0.7rem;">
-    就读于 <strong>ENSEEIHT</strong> 计算机科学与应用数学专业的工程师学生，数学和机器学习基础扎实。我目前在台北的<strong>国立台湾大学交换一个学期</strong>。我的目标是成为一名 <strong>AI 研究员</strong>，或进入<strong>金融市场</strong>工作——量化研究、交易以及两者之间的一切。我主要的兴趣是机器学习、数学金融，以及 AI 与硬件的交叉领域。
+    <strong>ENSEEIHT</strong> 的工程师学生，目前在<strong>国立台湾大学</strong>交换。我着迷于 <strong>AI</strong> 及其日新月异的发展，也热爱<strong>金融</strong>（尤其是金融市场）、<strong>物理</strong>和<strong>工程</strong>。我拥有<strong>builder 思维</strong>（动手构建者的思维）：课堂上学到的知识，我会通过自己的项目钻研得更深。现在，我希望在<strong>研究</strong>或<strong>交易</strong>岗位上积累实践经验。
   </p>
 </div>
 
